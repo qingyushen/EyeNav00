@@ -1,14 +1,7 @@
 const express = require('express')
 const app = express()
-<<<<<<< HEAD
 var multer = require('multer')
 var upload = multer({ dest: 'uploads/' })
-=======
-//const Vision = require('@google-cloud/vision');
-var multer  = require('multer')
-//var upload = multer({ dest: 'uploads/' })
->>>>>>> parent of bc9e750... jygh
-
 
 app.get('/', function (req, res) {
    res.send('Hello World!')
